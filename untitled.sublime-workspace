@@ -1,0 +1,593 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"a",
+				"a\tTag"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"h",
+				"h2\tTag"
+			],
+			[
+				"ar",
+				"article\tTag"
+			],
+			[
+				"se",
+				"section\tTag"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"componen",
+				"components\t(config.yml)"
+			],
+			[
+				"_S",
+				"$_SESSION〔variable〕"
+			],
+			[
+				"for",
+				"for\tTwig : For"
+			],
+			[
+				"exte",
+				"extends\tTwig : Extends"
+			],
+			[
+				"ex",
+				"extends\tTwig : Extends"
+			],
+			[
+				"UserFa",
+				"Sercop\\Bundle\\ComunBundle\\DependencyInjection\\Security\\Factory\\UserFactory〔class〕"
+			],
+			[
+				"Se",
+				"Sercop"
+			],
+			[
+				"Ca",
+				"Carrito〔namespace〕"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 126.0,
+		"last_filter": "package",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"synta",
+				"Set Syntax: PHP"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"packe",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Git: Blame"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 428.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html/curso-backfront",
+		"/var/www/html/curso-backfront/symfony"
+	],
+	"file_history":
+	[
+		"/var/www/html/invie/index.html",
+		"/home/mtriana/Documentos/Catalogo/mantis2890/example.html",
+		"/home/mtriana/Documentos/Catalogo/mantis2890/dist/chosen.jquery.js",
+		"/home/mtriana/Documentos/Personal/sisproinf/programas/js/material.js",
+		"/home/mtriana/Documentos/Catalogo/mantis2890/Bootstrap + Chosen.html",
+		"/home/mtriana/Documentos/Catalogo/mantis2890/dist/chosen.js",
+		"/var/www/html/sisproinf/programas/php/frm_manoobra.php",
+		"/var/www/html/sisproinf/programas/php/frm_equipo.php",
+		"/var/www/html/sisproinf/programas/js/manoobra.js",
+		"/var/www/html/sisproinf/programas/js/rubro.js",
+		"/var/www/html/sisproinf/programas/php/frm_rubro.php",
+		"/var/www/html/sisproinf/js/funciones.js",
+		"/home/mtriana/Documentos/site/css/custom.css",
+		"/home/mtriana/Documentos/site/index.html",
+		"/home/mtriana/Documentos/AulaFormativa/Mes2/ArchivosFuente-HTML5Proyecto/site/index.html",
+		"/home/mtriana/Documentos/site/css/jumbotron.css",
+		"/home/mtriana/Descargas/helpdesk/js/jquery.validationEngine-es.js",
+		"/home/mtriana/Descargas/helpdesk/js/jquery.validationEngine.js",
+		"/home/mtriana/.cache/.fr-4xPHZ3/sisproinf/programas/js/contratista.js",
+		"/var/www/html/sisproinf/programas/js/usuario.js",
+		"/var/www/html/sisproinf/programas/js/proyecto.js",
+		"/home/mtriana/Documentos/site/css/bootstrap-theme.css",
+		"/home/mtriana/Documentos/1c8274a2.docx",
+		"/run/media/mtriana/My Passport/Respaldo Viejo 3/www/ierpv1/src/iErp/MainBundle/Resources/public/js/ajaxHandler.js",
+		"/var/www/html/mes1/index.htm",
+		"/home/mtriana/Documentos/AulaFormativa/Mes1/ArchivosFuente-HTML5Semantico/HTML5 Semántico/004/ejemplo1.html",
+		"/var/www/html/mes1/tipodocumeto2.html",
+		"/home/mtriana/Documentos/ProyectoAPU/basededatospostgre.backup",
+		"/home/mtriana/.config/sublime-text-3/Packages/User/HTML.sublime-settings",
+		"/var/www/html/mes1/tipodoc1.html",
+		"/var/www/html/wservice_ce_produccion/server.php",
+		"/var/www/html/ce_produccion/src/Sercop/Bundle/ComunBundle/Command/VerificarOrdenesCommand.php",
+		"/var/www/html/ce_produccion/config_easyseguridad.txt",
+		"/var/www/html/ce_produccion/app/config/config.yml",
+		"/var/www/html/ce_produccion/src/Sercop/Bundle/ComunBundle/Security/User/WebserviceUserProvider.php",
+		"/var/www/html/ce_produccion/src/Sercop/Bundle/ComunBundle/Services/Soce1Webservices.php",
+		"/var/www/html/ce_produccion/composer.json",
+		"/var/www/html/ce_produccion/app/config/parameters.yml",
+		"/var/www/html/ce_produccion/src/Sercop/Bundle/ComunBundle/Security/Authentication/Provider/AuthenticationProvider.php",
+		"/var/www/html/ce_produccion/app/cache/dev/classes.php",
+		"/var/www/html/ce_produccion/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/TraceableEventDispatcher.php",
+		"/var/www/html/ce_produccion/app/bootstrap.php.cache",
+		"/var/www/html/ce_produccion/web/app_dev.php",
+		"/var/www/html/ce_produccion/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php",
+		"/var/www/html/ce_produccion/vendor/symfony/symfony/src/Symfony/Component/EventDispatcher/Debug/WrappedListener.php",
+		"/var/www/html/ce_produccion/src/Sercop/Bundle/ComunBundle/Security/Firewall/UserListener.php",
+		"/var/www/html/ce_produccion/Resources/views/NewLookFeelTest/home.html.twig",
+		"/var/www/html/ce_produccion/src/Sercop/Bundle/ComunBundle/Resources/views/NewLookFeelTest/home.html.twig",
+		"/var/www/html/ce_produccion/src/Sercop/Bundle/ComunBundle/Controller/MigracionController.php",
+		"/var/www/html/ce_produccion/Resources/views/Migracion/formulario_migracion.html.twig",
+		"/var/www/html/ce_produccion/Resources/config/routing.yml",
+		"/var/www/html/ce_produccion/Resources/views/Default/ventana-mensaje.html.twig",
+		"/var/www/html/ce_produccion/src/Sercop/Bundle/ComunBundle/Controller/DocumentoConvenioController.php",
+		"/usr/share/pear/PEAR/Downloader/Package.php",
+		"/tmp/mozilla_mtriana0/Instalar+nuevo+m%C3%B3dulo+en+el+servidor+de+Pruebas+-+Cat%C3%A1logo+Electr%C3%B3nico.msg",
+		"/var/www/html/ce_produccion/README.md",
+		"/home/mtriana/Documentos/Proyectos/ce_produccion.sublime-project",
+		"/home/mtriana/Documentos/Proyectos/ceproduccion.sublime-project",
+		"/var/www/html/ProcesoContratacion/app/webroot/compras/classes/Proveedor.php",
+		"/var/www/html/ProcesoContratacion/app/webroot/compras/bdd/Bdd-Oracle_esi.php",
+		"/var/www/html/ProcesoContratacion/app/webroot/compras/tablas/TablaEsi.php",
+		"/var/www/html/ProcesoContratacion/app/webroot/compras/tablas/TablaEsiEntidad.php",
+		"/var/www/html/ProcesoContratacion/app/webroot/compras/classes/EsiEntidad.php",
+		"/var/www/html/ProcesoContratacion/app/webroot/compras/SolicitudCompra/RegistroProcesoPaso1.php",
+		"/var/www/html/ProcesoContratacion/app/webroot/compras/SolicitudCompra/procesosafectados.php",
+		"/var/www/html/wedding/assets/js/main.js",
+		"/home/mtriana/Documentos/AulaFormativa/Mes1/PracticaGuiada-Archivos/files/009/googlemaps.js",
+		"/var/www/html/wedding/index.html",
+		"/home/mtriana/Documentos/AulaFormativa/Mes1/PracticaGuiada-Archivos/files/007/comentarios.html",
+		"/home/mtriana/Documentos/AulaFormativa/Mes1/PracticaGuiada-Archivos/files/001/wedding/index.html",
+		"/var/www/html/wedding/assets/images/rose-left-pink.svg",
+		"/home/mtriana/.config/sublime-text-3/Packages/User/bh_core.sublime-settings",
+		"/var/www/html/wedding/assets/css/styles.css",
+		"/var/www/html/ce_depuracion/Resources/config/services.yml",
+		"/var/www/html/ce_depuracion/src/Sercop/Bundle/ComunBundle/Controller/CarritoController.php",
+		"/var/www/html/ce_depuracion/Resources/views/DocumentoConvenio/new.html.twig",
+		"/var/www/html/ce_depuracion/src/Sercop/Bundle/ComunBundle/Resources/views/Banner/edit.html.twig",
+		"/home/mtriana/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/var/www/html/ce_depuracion/Resources/config/routing.yml",
+		"/var/www/html/ce_depuracion/app/config/config.yml",
+		"/home/mtriana/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/var/www/html/ce_depuracion/src/Sercop/Bundle/ComunBundle/Controller/ProductosController.php",
+		"/var/www/html/ce_depuracion/composer.phar",
+		"/var/www/html/ce_depuracion/web/app_dev.php",
+		"/var/www/html/ce_depuracion/app/bootstrap.php.cache",
+		"/home/mtriana/.config/sublime-text-3/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/home/mtriana/.config/sublime-text-3/Packages/User/Xdebug.sublime-settings",
+		"/var/www/html/info.php",
+		"/var/www/html/ce_produccion/src/Sercop/Bundle/ComunBundle/Controller/ProductosController.php",
+		"/var/www/html/ce_produccion/Resources/views/Carrito/carrito.html.twig",
+		"/home/mtriana/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/var/www/html/ce_produccion/src/Sercop/Bundle/ComunBundle/Entity/ConvenioProveedor.php",
+		"/home/mtriana/.config/sublime-text-3/Packages/PHP Companion/PHP Companion.sublime-settings",
+		"/var/www/html/ce_depuracion/app/config/parameters.yml",
+		"/var/www/html/ce_produccion/src/Sercop/Bundle/ComunBundle/Command/ConvenioProveedorCommand.php",
+		"/var/www/html/ce_produccion/.gitignore",
+		"/var/www/html/ce_produccion/src/Sercop/Bundle/ComunBundle/Command/MejorOfertaCommand.php",
+		"/var/www/html/ce_produccion/web/js/jquery.js",
+		"/var/www/html/ce_produccion/web/back_css_js/css/pie.css",
+		"/var/www/html/ce_produccion/web/back_css_js/js/jstree/dist/libs/jquery.js",
+		"/var/www/html/ce_produccion/Resources/public/js/jstree/dist/jstree.js",
+		"/var/www/html/ce_produccion/src/Sercop/Bundle/ComunBundle/Controller/CalificacionController.php",
+		"/home/mtriana/.config/sublime-text-3/Packages/Terminal/Terminal.sublime-settings",
+		"/home/mtriana/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
+		"/var/www/html/ce_produccion/src/Sercop/Bundle/ComunBundle/Controller/CarritoController.php",
+		"/var/www/html/ce_produccion/src/Sercop/Bundle/ComunBundle/SercopComunBundle.php",
+		"/var/www/html/ce_produccion/src/Sercop/Bundle/ComunBundle/Entity/Carrito.php",
+		"/home/mtriana/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
+		"/var/www/html/ce_produccion/FETCH_HEAD",
+		"/var/www/html/wedding/prueba.html",
+		"/home/mtriana/.config/sublime-text-3/Packages/User/Side Bar.sublime-settings",
+		"/var/www/html/wedding/assets/plugins/instafeed.min.js"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/var/www/html/sisproinf",
+			"/var/www/html/sisproinf/programas",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Bootstrap%20+%20Chosen_files",
+			"keyup",
+			"keypress",
+			"key",
+			"txtPIndirecto",
+			"key",
+			"keypres",
+			"keypress",
+			"format",
+			"fnTerminarEdicion",
+			"h2",
+			"cedula",
+			"ce",
+			"fnGuardarUsuario",
+			"autenicacion_webservice_url",
+			"ventana-mensaje.html.twig",
+			"ventana-mensaje.html",
+			"USUARIOS DEL PORTAL",
+			"sercop_comun_migrar",
+			"EsiEntidad",
+			"m_datos_sri",
+			"asist",
+			"map\"",
+			"Producto",
+			"                ",
+			"               ",
+			"              ",
+			"             ",
+			"            ",
+			"Request",
+			"request",
+			"Request",
+			"request",
+			"Request",
+			"link"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"dist"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 253.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 244.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"output.xdebug":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"server",
+				"wservice_ce_produccion/server.php"
+			],
+			[
+				"config",
+				"ce_produccion/app/config/config.yml"
+			],
+			[
+				"ser",
+				"wservice_ce_produccion/server.php"
+			],
+			[
+				"composer",
+				"ce_produccion/composer.json"
+			],
+			[
+				"confi",
+				"ce_produccion/app/config/config.yml"
+			],
+			[
+				"home.",
+				"ce_produccion/src/Sercop/Bundle/ComunBundle/Resources/views/NewLookFeelTest/home.html.twig"
+			],
+			[
+				"home",
+				"ce_produccion/Resources/views/NewLookFeelTest/home.html.twig"
+			],
+			[
+				"formulario_migracion",
+				"Resources/views/Migracion/formulario_migracion.html.twig"
+			],
+			[
+				"",
+				"README.md"
+			],
+			[
+				"documentoconveniocontroller",
+				"src/Sercop/Bundle/ComunBundle/Controller/DocumentoConvenioController.php"
+			],
+			[
+				"bdd-oracle_esi",
+				"bdd/Bdd-Oracle_esi.php"
+			],
+			[
+				"tablaesi",
+				"tablas/TablaEsi.php"
+			],
+			[
+				"tablaesientidad",
+				"tablas/TablaEsiEntidad.php"
+			],
+			[
+				"esientidad",
+				"classes/EsiEntidad.php"
+			],
+			[
+				"registroprocesopas",
+				"SolicitudCompra/RegistroProcesoPaso1.php"
+			],
+			[
+				"provee",
+				"classes/Proveedor.php"
+			],
+			[
+				"procesosafec",
+				"SolicitudCompra/procesosafectados.php"
+			],
+			[
+				"procesosafecta",
+				"SolicitudCompra/procesosafectados.php"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"mai",
+				"assets/js/main.js"
+			],
+			[
+				".html",
+				"Resources/views/DocumentoConvenio/new.html.twig"
+			],
+			[
+				"config.yml",
+				"app/config/config.yml"
+			],
+			[
+				"app_dev",
+				"web/app_dev.php"
+			],
+			[
+				"productocontrolle",
+				"src/Sercop/Bundle/ComunBundle/Controller/ProductosController.php"
+			],
+			[
+				"productoscontrol",
+				"src/Sercop/Bundle/ComunBundle/Controller/ProductosController.php"
+			],
+			[
+				"productoscontroller",
+				"ce_depuracion/src/Sercop/Bundle/ComunBundle/Controller/ProductosController.php"
+			],
+			[
+				"productoscontro",
+				"ce_produccion/src/Sercop/Bundle/ComunBundle/Controller/ProductosController.php"
+			],
+			[
+				".twi",
+				"ce_produccion/Resources/views/Carrito/carrito.html.twig"
+			],
+			[
+				"para",
+				"ce_produccion/app/config/parameters.yml"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"convenioproveedor",
+				"src/Sercop/Bundle/ComunBundle/Command/ConvenioProveedorCommand.php"
+			],
+			[
+				"mejo",
+				"src/Sercop/Bundle/ComunBundle/Command/MejorOfertaCommand.php"
+			],
+			[
+				".css",
+				"web/back_css_js/css/pie.css"
+			],
+			[
+				".js",
+				"web/js/jquery.js"
+			],
+			[
+				"js",
+				"Resources/public/js/jstree/dist/jstree.js"
+			],
+			[
+				"mejorofer",
+				"src/Sercop/Bundle/ComunBundle/Command/MejorOfertaCommand.php"
+			],
+			[
+				"par",
+				"app/config/parameters.yml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 131.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
