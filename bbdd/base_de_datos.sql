@@ -1,6 +1,6 @@
-CREATE DATABASE IF NOT EXISTS curso-backfront;
+CREATE DATABASE IF NOT EXISTS curso_backfront;
 
-USE curso-backfront;
+USE curso_backfront;
 
 CREATE TABLE users(
 	id 			int(255) auto_increment not null,
