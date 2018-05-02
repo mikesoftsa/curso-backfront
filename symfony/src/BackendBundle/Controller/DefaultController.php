@@ -10,4 +10,14 @@ class DefaultController extends Controller
     {
         return $this->render('BackendBundle:Default:index.html.twig');
     }
+
+    public function pruebasAction(){
+        $em = $this->getDoctrine()->getManager();
+        $userRepo = $em->getRepository("BackendBundle:User");
+        $users = $userRepo->findAll();
+
+        var_dump($users);
+
+        die;
+    }
 }

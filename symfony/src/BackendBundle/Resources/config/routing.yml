@@ -1,3 +1,7 @@
 backend_homepage:
     path:     /
     defaults: { _controller: BackendBundle:Default:index }
+
+backend_pruebas:
+    path: /pruebas
+    defaults: { _controller: BackendBundle:Default:pruebas }

@@ -5,6 +5,7 @@ namespace AppBundle\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
+use AppBundle\Services\Helpers;
 
 class DefaultController extends Controller
 {
@@ -18,7 +19,20 @@ class DefaultController extends Controller
     }
 
     public function pruebaAction(){
-        echo "Hola mundo";
-        die;
+        $em = $this->getDoctrine()->getManager();
+        $userRepo = $em->getRepository("BackendBundle:User");
+        $users = $userRepo->findAll();
+
+        $helpers = $this->get(Helpers::class);
+        return $helpers->json(array(
+            'status' => 'success',
+            'users'  => $users
+        ));
+        /*die;
+
+        return $this->json(array(
+            'status' => 'success',
+            'users'  => $users[0]
+        ));*/
     }
 }
