@@ -2,7 +2,6 @@
 
 namespace AppBundle\Controller;
 
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Validator\Constraints as Assert;
@@ -44,12 +43,14 @@ class DefaultController extends Controller
             $emailConstraint->message = "This email is not valid !!";
             $validate_email = $this->get("validator")->validate($email, $emailConstraint);
 
+            $pwd = hash("sha256", $password);
+
             if($email != null && count($validate_email) == 0 && $password != null){
                 $jwt_auth = $this->get(JwtAuth::class);
                 if($getHash == null || $getHash == false){
-                    $signup = $jwt_auth->signup($email, $password);
+                    $signup = $jwt_auth->signup($email, $pwd);
                 } else {
-                    $signup = $jwt_auth->signup($email, $password, true);
+                    $signup = $jwt_auth->signup($email, $pwd, true);
                 }
 
 
