@@ -1,0 +1,30 @@
+<div class="col-md-12">
+    <h3>{{ titlePrincipal }}</h3>
+
+    <div class="alert alert-success" *ngIf="status_save == 'success'">
+        ¡La tarea se ha creado correctamente!
+    </div>
+    <div class="alert alert-danger" *ngIf="status_save == 'error'">
+        ¡La tarea no se ha creado!
+    </div>
+    <form #taskNewForm="ngForm" (ngSubmit)="onSubmit()" class="col-md-7">
+        <p>
+            <label>Titulo</label>
+            <input type="text" class="form-control" name="title" #title="ngModel" [(ngModel)]="task.title"  required>
+            <span *ngIf="!title.valid && title.touched"> El titulo no es correcto !!</span>
+        </p>
+        <p>
+            <label>Descripción</label>
+            <textarea class="form-control" name="description" #description="ngModel" [(ngModel)]="task.description"></textarea>
+        </p>
+        <p>
+            <label>Estado</label>
+            <select class="form-control" name="status" #status="ngModel" [(ngModel)]="task.status" >
+                <option value="new"> Nueva</option>
+                <option value="todo"> Para hacer</option>
+                <option value="finished"> Acabada</option>
+            </select>
+        </p>
+        <input type="submit" value="{{ titlePrincipal }}" class="btn btn-success" [disabled]="!taskNewForm.form.valid">
+    </form>
+</div>
