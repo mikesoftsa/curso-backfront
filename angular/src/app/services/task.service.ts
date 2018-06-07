@@ -37,4 +37,13 @@ export class TaskService{
         );
 
     }
+
+    getTasks(token, id){
+        let params = "id="+id+"&authorization="+token;
+        let headers = new Headers({ 'Content-Type':'application/x-www-form-urlencoded'});
+
+        return this._http.post(this.url+'/task/detail/'+id, params,{headers:headers}).pipe(
+            map(res => res.json())
+        );
+    }
 }

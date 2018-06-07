@@ -1,0 +1,19 @@
+<div class="col-md-12">
+    <div class="loader" *ngIf="loading == 'show'">
+        <img src="assets/img/loader.gif">
+    </div>
+    <div class="col-md-12" *ngIf="task">
+        <h3>{{ task.title }}</h3>
+        <hr>
+        <div class="panel panel-default task-data">
+            <div class="panel-heading">
+                <h3 class="panel-title">
+                    Tarea creada por <strong> {{ task.user.name + ' ' + task.user.surname }} el {{ task.createdAt.timestamp }}</strong>
+                </h3>
+            </div>
+            <div class="panel-body">
+                {{ task.description }}
+            </div>
+        </div>
+    </div>
+</div>

@@ -11,6 +11,7 @@ import {RegisterComponent} from './components/register.component';
 import {DefaultComponent} from './components/default.component';
 import {UserEditComponent} from './components/user.edit.component';
 import {TaskNewComponent} from './components/task.new.component';
+import {TaskDetailComponent} from './components/task.detail.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import {TaskNewComponent} from './components/task.new.component';
       RegisterComponent,
       DefaultComponent,
       UserEditComponent,
-      TaskNewComponent
+      TaskNewComponent,
+      TaskDetailComponent
   ],
   imports: [
     BrowserModule,
